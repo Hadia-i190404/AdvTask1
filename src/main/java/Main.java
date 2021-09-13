@@ -9,7 +9,7 @@ public class Main {
 		Scanner s= new Scanner(System.in);
 		int input;
 		String name;
-		String numb; //Try no 5
+		String numb; 
 		String bnktype;
 		int Acc;
 		System.out.println("DO YOU WANT TO OPEN AN ACCOUNT OR CLOSE ONE?");
@@ -61,6 +61,7 @@ public class Main {
 				{
 				//	ioe.printStrackTrace();
 				}
+			obj.option();
 		}
 		if(input==4)
 		{
