@@ -22,7 +22,7 @@ public class Main {
 		input= s.nextInt();
 		if(input == 1)
 		{
-		//INTERFACE	
+		//INTERFACE	Successful
 			System.out.println("Enter your name");
 			name=s.next();
 			System.out.println("Enter your phone numb");
