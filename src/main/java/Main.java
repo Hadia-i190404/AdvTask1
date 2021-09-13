@@ -9,7 +9,7 @@ public class Main {
 		Scanner s= new Scanner(System.in);
 		int input;
 		String name;
-		String numb;
+		String numb; //Try no 5
 		String bnktype;
 		int Acc;
 		System.out.println("DO YOU WANT TO OPEN AN ACCOUNT OR CLOSE ONE?");
