@@ -46,15 +46,6 @@ public class Customer {
 		LocalDate date=LocalDate.now();
 		accobj.setAcc_date(date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
 		
-		//File Handling
-/*		File info=new File("Details.txt");
-		FileWriter wfile=new FileWriter(info,true);
-		Integer i= new Integer(AccNo);
-		Integer n=new Integer(accobj.getblnc());
-		wfile.write(name+","+String.valueOf(i)+","+PNumb+","+accobj.getAcc_date()+","+String.valueOf(n));
-		wfile.close();
-		
-*/
 	}
 	public void FILEHANDLING () throws IOException
 	{
